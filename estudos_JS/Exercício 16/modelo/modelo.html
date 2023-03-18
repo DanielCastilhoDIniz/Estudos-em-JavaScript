@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1> Vamos Contar</h1>
+
+    </header>
+    <section>
+        <div id="Dados">
+            <P> Início: <input type="Number" name="txta1" id = 'a1' min = 0></P> <!--  caixa p/ inesir primeiro termo -->
+            <p> Fim: <input type="Number" name = "texan" id="an" min = 0> </p>  <!--  caixa p/ inesir segundo termo -->
+            <p> Passo: <input type="Number" name = "txtpasso" id = "passo"></p> <!--  caixa p/ razão da contagem -->
+            <p><input type="Button" value="Contar" onclick="contar()"></p> <!--  inseri botam para chamar a função contagem() -->
+        </div>
+
+        <div id = 'res'>
+
+            Preparando contagem.
+            
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Cursoemvideo</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
